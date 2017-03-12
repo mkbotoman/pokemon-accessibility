@@ -3,3 +3,8 @@
   list-style-type: none;
   flex-wrap:wrap;
 }
+
+.pokemon-list a {
+  text-decoration: none;
+  color: black;
+}

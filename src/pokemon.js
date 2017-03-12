@@ -6,10 +6,12 @@ class Pokemon extends Component {
     const { pokemon } = this.props
 
     return (
-      <li className="pokemon-list-item" key={pokemon.id}>
-        <img className="pokemon-list-image" alt={pokemon.name} src={pokemon.image} />
-        <h2>{pokemon.name}</h2>
-      </li>
+      <span className="pokemon-list-item" key={pokemon.id}>
+        <a href={`https://pokemondb.net/pokedex/${pokemon.name}`} target="_blank">
+          <img className="pokemon-list-image" alt={pokemon.name} src={pokemon.image} />
+          <h2>{pokemon.name}</h2>
+        </a>
+      </span>
     );
   }
 }

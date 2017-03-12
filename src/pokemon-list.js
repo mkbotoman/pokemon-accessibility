@@ -6,9 +6,9 @@ import { pokemons } from './pokemons'
 class PokemonList extends Component {
   render() {
     return (
-      <ul className="pokemon-list">
+      <div className="pokemon-list">
         {pokemons.map((pokemon) => <Pokemon pokemon={pokemon} key={pokemon.id}/>)}
-      </ul>
+      </div>
     );
   }
 }
