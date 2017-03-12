@@ -4,11 +4,7 @@
 
 .app-header {
   background-color: #222;
-  height: 150px;
+  height: 50px;
   padding: 20px;
   color: white;
-}
-
-.pokemon-list {
-  display: flex;
 }
