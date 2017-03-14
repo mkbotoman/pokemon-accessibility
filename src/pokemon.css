@@ -6,3 +6,7 @@
 .pokemon-list-image {
   height: 200px;
 }
+
+*:focus {
+  outline: none;
+}
